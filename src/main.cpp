@@ -13,10 +13,11 @@
 #include <shader.hpp>
 #include <texture.hpp>
 
-using namespace std;
+#include "glm/glm.hpp"
+#include "glm/gtc/matrix_transform.hpp"
+#include "glm/gtc/type_ptr.hpp"
 
-tuple<unsigned int, unsigned int> generateArrays();
-void draw(Shader shader, unsigned int, Texture, Texture);
+using namespace std;
 
 int main()
 {
@@ -24,8 +25,15 @@ int main()
 
     window.setActive(true);
 
+    sf::Clock clock;
+
     gladLoadGL(reinterpret_cast<GLADloadfunc>(sf::Context::getFunction));
     glEnable(GL_DEPTH_TEST);
+
+    glm::mat4 trans = glm::mat4(1.0);
+    trans = glm::rotate(trans, glm::radians(90.0f), glm::vec3(0.0, 0.0, 1.0));
+    trans = glm::scale(trans, glm::vec3(0.5, 0.5, 0.5));
+    trans = glm::translate(trans, glm::vec3(0.5, -0.5, 0.5));
 
     Shader shader = Shader("resources/triangle_vertex.glsl", "resources/triangle_fragment.glsl");
 
@@ -69,7 +77,6 @@ int main()
     Texture texture2 = Texture("resources/face.png");
 
     shader.use();
-    shader.setVec3("offset", { 0, 0, 0 });
     shader.setInt("texture1", 0);
     shader.setInt("texture2", 1);
 
@@ -106,10 +113,22 @@ int main()
         texture.use(GL_TEXTURE0);
         texture2.use(GL_TEXTURE1);
 
+        trans = glm::rotate(trans, glm::radians(0.03f), glm::vec3(0.0f, 0.0f, 1.0f));
+
         shader.use();
         shader.setFloat("textureMix", textureMix);
+        shader.setMat4("transform", glm::value_ptr(trans));
 
         glBindVertexArray(vao);
+
+        glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+
+        glm::mat4 newTrans = glm::mat4(1.0);
+        newTrans = glm::translate(newTrans, glm::vec3(-0.5, 0.5, 0));
+
+        shader.setFloat("textureMix", 0.4);
+        shader.setMat4("transform", glm::value_ptr(newTrans));
+
         glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
 
         glBindVertexArray(0);
@@ -120,8 +139,4 @@ int main()
     window.close();
 
     return 0;
-}
-
-void draw(Shader shader, unsigned int vao, Texture texture1, Texture texture2)
-{
 }

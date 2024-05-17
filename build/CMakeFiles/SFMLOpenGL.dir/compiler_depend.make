@@ -353,8 +353,191 @@ CMakeFiles/SFMLOpenGL.dir/src/main.cpp.obj: C:/Users/Thomas/Documents/test\ sfml
   _deps/sfml-src/include/SFML/Window/WindowStyle.hpp \
   C:/Users/Thomas/Documents/test\ sfml/include/KHR/khrplatform.h \
   C:/Users/Thomas/Documents/test\ sfml/include/glad/gl.h \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double2x2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double2x2_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float2x2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float2x2_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_bool2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_bool2_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_bool3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_bool3_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_bool4.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_bool4_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_double2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_double2_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_double3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_double3_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_double4.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_double4_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_float2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_float2_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_float3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_float3_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_float4.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_float4_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_int2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_int2_sized.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_int3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_int3_sized.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_int4.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_int4_sized.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_uint2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_uint2_sized.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_uint3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_uint3_sized.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_uint4.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_uint4_sized.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/_fixes.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/func_integer.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/func_packing.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/func_trigonometric.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/qualifier.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/setup.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_half.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_half.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/fwd.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/glm.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/matrix_transform.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/matrix_transform.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/type_ptr.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/type_ptr.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/integer.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/mat2x2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/packing.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/trigonometric.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/vec2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/vec3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/vec4.hpp \
   C:/Users/Thomas/Documents/test\ sfml/include/shader.hpp \
   C:/Users/Thomas/Documents/test\ sfml/include/texture.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/common.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/_fixes.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/_vectorize.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/compute_common.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/compute_vector_relational.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/func_common.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/func_exponential.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/func_geometric.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/func_matrix.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/func_vector_relational.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/setup.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_float.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat2x2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat2x2.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat2x3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat2x3.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat2x4.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat2x4.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat3x2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat3x2.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat3x3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat3x3.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat3x4.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat3x4.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat4x2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat4x2.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat4x3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat4x3.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat4x4.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat4x4.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_quat.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_quat.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_vec1.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_vec1.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_vec2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_vec2.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_vec3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_vec3.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_vec4.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_vec4.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/exponential.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_clip_space.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_clip_space.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double2x3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double2x3_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double2x4.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double2x4_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double3x2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double3x2_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double3x3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double3x3_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double3x4.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double3x4_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double4x2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double4x2_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double4x3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double4x3_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double4x4.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double4x4_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float2x3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float2x3_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float2x4.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float2x4_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float3x2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float3x2_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float3x3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float3x3_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float3x4.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float3x4_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float4x2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float4x2_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float4x3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float4x3_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float4x4.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float4x4_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_projection.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_projection.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_transform.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_transform.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_common.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_common.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_double.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_double_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_float.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_float_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_geometric.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_geometric.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_relational.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_relational.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_transform.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_transform.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_trigonometric.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_trigonometric.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/scalar_constants.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/scalar_constants.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/scalar_int_sized.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/scalar_uint_sized.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_bool1.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_bool1_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_double1.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_double1_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_float1.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_float1_precision.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_int1.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_int1_sized.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_relational.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_relational.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_uint1.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_uint1_sized.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/geometric.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/constants.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/constants.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/epsilon.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/epsilon.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/quaternion.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/quaternion.inl \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/vec1.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/mat2x3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/mat2x4.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/mat3x2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/mat3x3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/mat3x4.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/mat4x2.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/mat4x3.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/mat4x4.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/matrix.hpp \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/simd/platform.h \
+  C:/Users/Thomas/Documents/test\ sfml/include/glm/vector_relational.hpp \
   C:/msys64/ucrt64/include/GL/gl.h \
   C:/msys64/ucrt64/include/_mingw.h \
   C:/msys64/ucrt64/include/_mingw_mac.h \
@@ -362,6 +545,7 @@ CMakeFiles/SFMLOpenGL.dir/src/main.cpp.obj: C:/Users/Thomas/Documents/test\ sfml
   C:/msys64/ucrt64/include/_mingw_secapi.h \
   C:/msys64/ucrt64/include/_mingw_stat64.h \
   C:/msys64/ucrt64/include/_timeval.h \
+  C:/msys64/ucrt64/include/assert.h \
   C:/msys64/ucrt64/include/c++/13.2.0/algorithm \
   C:/msys64/ucrt64/include/c++/13.2.0/array \
   C:/msys64/ucrt64/include/c++/13.2.0/backward/binders.h \
@@ -423,6 +607,7 @@ CMakeFiles/SFMLOpenGL.dir/src/main.cpp.obj: C:/Users/Thomas/Documents/test\ sfml
   C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr_base.h \
+  C:/msys64/ucrt64/include/c++/13.2.0/bits/specfun.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/sstream.tcc \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algo.h \
@@ -452,15 +637,20 @@ CMakeFiles/SFMLOpenGL.dir/src/main.cpp.obj: C:/Users/Thomas/Documents/test\ sfml
   C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator_args.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/utility.h \
   C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/cassert \
   C:/msys64/ucrt64/include/c++/13.2.0/cctype \
   C:/msys64/ucrt64/include/c++/13.2.0/cerrno \
+  C:/msys64/ucrt64/include/c++/13.2.0/cfloat \
+  C:/msys64/ucrt64/include/c++/13.2.0/climits \
   C:/msys64/ucrt64/include/c++/13.2.0/clocale \
+  C:/msys64/ucrt64/include/c++/13.2.0/cmath \
   C:/msys64/ucrt64/include/c++/13.2.0/codecvt \
   C:/msys64/ucrt64/include/c++/13.2.0/compare \
   C:/msys64/ucrt64/include/c++/13.2.0/cstddef \
   C:/msys64/ucrt64/include/c++/13.2.0/cstdint \
   C:/msys64/ucrt64/include/c++/13.2.0/cstdio \
   C:/msys64/ucrt64/include/c++/13.2.0/cstdlib \
+  C:/msys64/ucrt64/include/c++/13.2.0/cstring \
   C:/msys64/ucrt64/include/c++/13.2.0/ctime \
   C:/msys64/ucrt64/include/c++/13.2.0/cwchar \
   C:/msys64/ucrt64/include/c++/13.2.0/cwctype \
@@ -499,6 +689,18 @@ CMakeFiles/SFMLOpenGL.dir/src/main.cpp.obj: C:/Users/Thomas/Documents/test\ sfml
   C:/msys64/ucrt64/include/c++/13.2.0/string \
   C:/msys64/ucrt64/include/c++/13.2.0/string_view \
   C:/msys64/ucrt64/include/c++/13.2.0/system_error \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/bessel_function.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/beta_function.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/ell_integral.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/exp_integral.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/gamma.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/hypergeometric.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/legendre_function.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/modified_bessel_func.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/poly_hermite.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/poly_laguerre.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/riemann_zeta.tcc \
+  C:/msys64/ucrt64/include/c++/13.2.0/tr1/special_function_util.h \
   C:/msys64/ucrt64/include/c++/13.2.0/tuple \
   C:/msys64/ucrt64/include/c++/13.2.0/type_traits \
   C:/msys64/ucrt64/include/c++/13.2.0/typeinfo \
@@ -525,9 +727,11 @@ CMakeFiles/SFMLOpenGL.dir/src/main.cpp.obj: C:/Users/Thomas/Documents/test\ sfml
   C:/msys64/ucrt64/include/crtdefs.h \
   C:/msys64/ucrt64/include/ctype.h \
   C:/msys64/ucrt64/include/errno.h \
+  C:/msys64/ucrt64/include/float.h \
   C:/msys64/ucrt64/include/limits.h \
   C:/msys64/ucrt64/include/locale.h \
   C:/msys64/ucrt64/include/malloc.h \
+  C:/msys64/ucrt64/include/math.h \
   C:/msys64/ucrt64/include/process.h \
   C:/msys64/ucrt64/include/pthread.h \
   C:/msys64/ucrt64/include/pthread_compat.h \
@@ -537,6 +741,7 @@ CMakeFiles/SFMLOpenGL.dir/src/main.cpp.obj: C:/Users/Thomas/Documents/test\ sfml
   C:/msys64/ucrt64/include/sdks/_mingw_ddk.h \
   C:/msys64/ucrt64/include/sec_api/stdio_s.h \
   C:/msys64/ucrt64/include/sec_api/stdlib_s.h \
+  C:/msys64/ucrt64/include/sec_api/string_s.h \
   C:/msys64/ucrt64/include/sec_api/sys/timeb_s.h \
   C:/msys64/ucrt64/include/sec_api/wchar_s.h \
   C:/msys64/ucrt64/include/signal.h \
@@ -544,6 +749,7 @@ CMakeFiles/SFMLOpenGL.dir/src/main.cpp.obj: C:/Users/Thomas/Documents/test\ sfml
   C:/msys64/ucrt64/include/stdint.h \
   C:/msys64/ucrt64/include/stdio.h \
   C:/msys64/ucrt64/include/stdlib.h \
+  C:/msys64/ucrt64/include/string.h \
   C:/msys64/ucrt64/include/swprintf.inl \
   C:/msys64/ucrt64/include/sys/timeb.h \
   C:/msys64/ucrt64/include/sys/types.h \
@@ -551,6 +757,7 @@ CMakeFiles/SFMLOpenGL.dir/src/main.cpp.obj: C:/Users/Thomas/Documents/test\ sfml
   C:/msys64/ucrt64/include/vadefs.h \
   C:/msys64/ucrt64/include/wchar.h \
   C:/msys64/ucrt64/include/wctype.h \
+  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/float.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/limits.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h \
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h \
@@ -1003,7 +1210,13 @@ _deps/sfml-src/include/SFML/System/Thread.inl:
 
 C:/Users/Thomas/Documents/test\ sfml/src/gl.c:
 
+C:/msys64/ucrt64/include/math.h:
+
 C:/Users/Thomas/Documents/test\ sfml/include/glad/gl.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/iomanip:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/epsilon.hpp:
 
 C:/msys64/ucrt64/include/corecrt.h:
 
@@ -1015,13 +1228,15 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/lwpintrin.h:
 
 _deps/sfml-src/include/SFML/Graphics.hpp:
 
-C:/msys64/ucrt64/include/c++/13.2.0/iomanip:
-
 C:/msys64/ucrt64/include/cderr.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/tbmintrin.h:
 
 C:/msys64/ucrt64/include/ioapiset.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/mat3x2.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float3x3_precision.hpp:
 
 C:/msys64/ucrt64/include/bemapiset.h:
 
@@ -1045,11 +1260,11 @@ C:/msys64/ucrt64/include/imm.h:
 
 C:/msys64/ucrt64/include/_mingw.h:
 
+C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_conv.h:
+
 C:/msys64/ucrt64/include/mmiscapi2.h:
 
 _deps/sfml-src/include/SFML/Graphics/Rect.hpp:
-
-C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_conv.h:
 
 C:/msys64/ucrt64/include/_mingw_mac.h:
 
@@ -1073,11 +1288,11 @@ C:/msys64/ucrt64/include/corecrt_wstdlib.h:
 
 C:/msys64/ucrt64/include/ole2.h:
 
-C:/msys64/ucrt64/include/_mingw_off_t.h:
+C:/msys64/ucrt64/include/winsvc.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/string_view:
 
-C:/msys64/ucrt64/include/winsvc.h:
+C:/msys64/ucrt64/include/_mingw_off_t.h:
 
 C:/msys64/ucrt64/include/_mingw_stdarg.h:
 
@@ -1087,7 +1302,11 @@ C:/msys64/ucrt64/include/jobapi.h:
 
 C:/msys64/ucrt64/include/ctype.h:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_int3_sized.hpp:
+
 _deps/sfml-src/include/SFML/Window/WindowBase.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double2x4_precision.hpp:
 
 C:/msys64/ucrt64/include/_mingw_unicode.h:
 
@@ -1095,9 +1314,19 @@ C:/msys64/ucrt64/include/mmeapi.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/x86intrin.h:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/matrix_transform.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_transform.inl:
+
 C:/msys64/ucrt64/include/_timeval.h:
 
 C:/msys64/ucrt64/include/apiset.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/type_ptr.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat2x2.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double2x2.hpp:
 
 _deps/sfml-src/include/SFML/System/NonCopyable.hpp:
 
@@ -1109,21 +1338,31 @@ C:/msys64/ucrt64/include/mcx.h:
 
 C:/msys64/ucrt64/include/malloc.h:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_bool2_precision.hpp:
+
 C:/msys64/ucrt64/include/basetsd.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/ia32intrin.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/func_exponential.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float3x4.hpp:
 
 C:/msys64/ucrt64/include/errhandlingapi.h:
 
 C:/msys64/ucrt64/include/sec_api/wchar_s.h:
 
+C:/msys64/ucrt64/include/c++/13.2.0/vector:
+
 C:/msys64/ucrt64/include/bcrypt.h:
 
 _deps/sfml-src/include/SFML/System.hpp:
 
-C:/msys64/ucrt64/include/c++/13.2.0/vector:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat2x3.inl:
 
 _deps/sfml-src/include/SFML/System/String.hpp:
+
+C:/msys64/ucrt64/include/c++/13.2.0/ext/alloc_traits.h:
 
 C:/msys64/ucrt64/include/cguid.h:
 
@@ -1131,15 +1370,11 @@ _deps/sfml-src/include/SFML/Graphics/Text.hpp:
 
 _deps/sfml-src/include/SFML/OpenGL.hpp:
 
-C:/msys64/ucrt64/include/c++/13.2.0/ext/alloc_traits.h:
+C:/msys64/ucrt64/include/c++/13.2.0/bits/invoke.h:
 
 C:/msys64/ucrt64/include/combaseapi.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/invoke.h:
-
 C:/msys64/ucrt64/include/corecrt_stdio_config.h:
-
-C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_facets.h:
 
 C:/msys64/ucrt64/include/ktmtypes.h:
 
@@ -1151,15 +1386,15 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/sgxintrin.h:
 
 C:/msys64/ucrt64/include/dde.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/cstdlib:
-
 C:/msys64/ucrt64/include/driverspecs.h:
 
-_deps/sfml-src/include/SFML/Window/Export.hpp:
+C:/msys64/ucrt64/include/c++/13.2.0/bits/parse_numbers.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/array:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/parse_numbers.h:
+_deps/sfml-src/include/SFML/Window/Export.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/mat3x4.hpp:
 
 C:/msys64/ucrt64/include/ddeml.h:
 
@@ -1169,45 +1404,57 @@ C:/msys64/ucrt64/include/debugapi.h:
 
 C:/msys64/ucrt64/include/dlgs.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/waitpkgintrin.h:
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/gamma.tcc:
 
 C:/msys64/ucrt64/include/dpapi.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/immintrin.h:
 
-C:/msys64/ucrt64/include/errno.h:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/compute_vector_relational.hpp:
 
-C:/msys64/ucrt64/include/excpt.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/waitpkgintrin.h:
+
+C:/msys64/ucrt64/include/errno.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_function.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h:
-
-C:/msys64/ucrt64/include/minwindef.h:
-
-_deps/sfml-src/include/SFML/Window/WindowStyle.hpp:
+C:/msys64/ucrt64/include/excpt.h:
 
 C:/msys64/ucrt64/include/winperf.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512fp16intrin.h:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float4x2.hpp:
+
+C:/msys64/ucrt64/include/minwindef.h:
+
+_deps/sfml-src/include/SFML/Window/WindowStyle.hpp:
+
 C:/msys64/ucrt64/include/fibersapi.h:
 
 C:/msys64/ucrt64/include/vadefs.h:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/mat2x4.hpp:
+
 C:/msys64/ucrt64/include/memoryapi.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/streambuf:
 
 C:/msys64/ucrt64/include/fileapi.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avxvnniint8intrin.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/streambuf:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/vec3.hpp:
 
 C:/msys64/ucrt64/include/fltwinerror.h:
 
 C:/msys64/ucrt64/include/libloaderapi.h:
 
 C:/msys64/ucrt64/include/sec_api/string_s.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/func_vector_relational.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/mat2x3.hpp:
 
 C:/msys64/ucrt64/include/interlockedapi.h:
 
@@ -1221,13 +1468,19 @@ C:/msys64/ucrt64/include/handleapi.h:
 
 C:/msys64/ucrt64/include/heapapi.h:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double4x4.hpp:
+
 C:/msys64/ucrt64/include/inaddr.h:
 
-C:/msys64/ucrt64/include/limits.h:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat4x4.hpp:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/range_access.h:
 
+C:/msys64/ucrt64/include/limits.h:
+
 C:/msys64/ucrt64/include/lzexpand.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_transform.inl:
 
 C:/msys64/ucrt64/include/msxml.h:
 
@@ -1253,11 +1506,13 @@ C:/msys64/ucrt64/include/sec_api/stdlib_s.h:
 
 C:/msys64/ucrt64/include/ncrypt.h:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_relational.inl:
+
 C:/msys64/ucrt64/include/oaidl.h:
 
 C:/msys64/ucrt64/include/objbase.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_ptr.h:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/constants.inl:
 
 C:/msys64/ucrt64/include/objidl.h:
 
@@ -1267,39 +1522,49 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avxintrin.h:
 
 C:/msys64/ucrt64/include/objidlbase.h:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_int3.hpp:
+
 C:/msys64/ucrt64/include/oleauto.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/string_view.tcc:
 
 C:/msys64/ucrt64/include/oleidl.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx5124fmapsintrin.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/string_view.tcc:
-
 C:/msys64/ucrt64/include/playsoundapi.h:
 
 C:/msys64/ucrt64/include/poppack.h:
 
-C:/msys64/ucrt64/include/processenv.h:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double3x4_precision.hpp:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/streambuf_iterator.h:
 
+C:/msys64/ucrt64/include/processenv.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_clip_space.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_uint1_sized.hpp:
+
 C:/msys64/ucrt64/include/processthreadsapi.h:
 
-C:/msys64/ucrt64/include/processtopologyapi.h:
-
 C:/msys64/ucrt64/include/c++/13.2.0/cstdint:
+
+C:/msys64/ucrt64/include/processtopologyapi.h:
 
 C:/msys64/ucrt64/include/profileapi.h:
 
 C:/msys64/ucrt64/include/rpcnsi.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/initializer_list:
-
 C:/msys64/ucrt64/include/propidl.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_bool3_precision.hpp:
 
 C:/msys64/ucrt64/include/prsht.h:
 
 _deps/sfml-src/include/SFML/Window/Context.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float4x3_precision.hpp:
 
 C:/msys64/ucrt64/include/psdk_inc/_fd_types.h:
 
@@ -1309,33 +1574,39 @@ C:/msys64/ucrt64/include/psdk_inc/_ip_types.h:
 
 _deps/sfml-src/include/SFML/System/Time.hpp:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double4x2.hpp:
+
 C:/msys64/ucrt64/include/psdk_inc/_socket_types.h:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat4x2.hpp:
+
 C:/msys64/ucrt64/include/psdk_inc/_wsa_errnos.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double4x3_precision.hpp:
 
 C:/msys64/ucrt64/include/psdk_inc/_wsadata.h:
 
 C:/msys64/ucrt64/include/psdk_inc/_xmitfile.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_construct.h:
-
 C:/msys64/ucrt64/include/psdk_inc/intrin-impl.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float2x3_precision.hpp:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/new_allocator.h:
+
+_deps/sfml-src/include/SFML/System/Lock.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_double3_precision.hpp:
+
+C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/error_constants.h:
 
 C:/msys64/ucrt64/include/pshpack2.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/cmpccxaddintrin.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/error_constants.h:
-
-_deps/sfml-src/include/SFML/System/Lock.hpp:
-
-C:/msys64/ucrt64/include/c++/13.2.0/bits/new_allocator.h:
-
-C:/msys64/ucrt64/include/c++/13.2.0/debug/assertions.h:
-
 C:/msys64/ucrt64/include/pshpack4.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/cxxabi_init_exception.h:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_common.inl:
 
 C:/msys64/ucrt64/include/pshpack8.h:
 
@@ -1345,6 +1616,10 @@ C:/msys64/ucrt64/include/realtimeapiset.h:
 
 C:/msys64/ucrt64/include/reason.h:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_double_precision.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float3x2.hpp:
+
 C:/msys64/ucrt64/include/rpc.h:
 
 C:/msys64/ucrt64/include/rpcasync.h:
@@ -1353,31 +1628,29 @@ _deps/sfml-src/include/SFML/Graphics/Drawable.hpp:
 
 C:/msys64/ucrt64/include/rpcdce.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/stdlib.h:
-
 C:/msys64/ucrt64/include/rpcdcep.h:
-
-C:/msys64/ucrt64/include/rpcndr.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_uninitialized.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/utility.h:
+C:/msys64/ucrt64/include/rpcndr.h:
 
-C:/msys64/ucrt64/include/corecrt_startup.h:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/func_trigonometric.inl:
 
 C:/msys64/ucrt64/include/rpcnterr.h:
 
 C:/msys64/ucrt64/include/winerror.h:
 
+C:/msys64/ucrt64/include/c++/13.2.0/bits/refwrap.h:
+
 C:/msys64/ucrt64/include/rpcsal.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/fmaintrin.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/refwrap.h:
+C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h:
 
 C:/msys64/ucrt64/include/sal.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_funcs.h:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float4x4_precision.hpp:
 
 C:/msys64/ucrt64/include/sdkddkver.h:
 
@@ -1389,15 +1662,19 @@ C:/Users/Thomas/Documents/test\ sfml/include/texture.hpp:
 
 C:/msys64/ucrt64/include/securityappcontainer.h:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_quat.hpp:
+
 C:/msys64/ucrt64/include/securitybaseapi.h:
-
-C:/msys64/ucrt64/include/servprov.h:
-
-C:/msys64/ucrt64/include/c++/13.2.0/bits/functexcept.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/serializeintrin.h:
 
+C:/msys64/ucrt64/include/c++/13.2.0/bits/functexcept.h:
+
+C:/msys64/ucrt64/include/servprov.h:
+
 C:/msys64/ucrt64/include/virtdisk.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_int2_sized.hpp:
 
 C:/msys64/ucrt64/include/shellapi.h:
 
@@ -1409,13 +1686,15 @@ C:/msys64/ucrt64/include/stdarg.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512dqintrin.h:
 
-C:/msys64/ucrt64/include/stdint.h:
-
 C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator_args.h:
+
+C:/msys64/ucrt64/include/stdint.h:
 
 C:/msys64/ucrt64/include/stdio.h:
 
 C:/msys64/ucrt64/include/stralign.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/_vectorize.hpp:
 
 C:/msys64/ucrt64/include/stringapiset.h:
 
@@ -1431,8 +1710,6 @@ _deps/sfml-src/include/SFML/Graphics/Glsl.hpp:
 
 C:/msys64/ucrt64/include/sysinfoapi.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator.h:
-
 C:/msys64/ucrt64/include/systemtopologyapi.h:
 
 C:/msys64/ucrt64/include/threadpoolapiset.h:
@@ -1445,31 +1722,35 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/cetintrin.h:
 
 C:/msys64/ucrt64/include/timezoneapi.h:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/vector_relational.hpp:
+
 C:/msys64/ucrt64/include/tvout.h:
 
-C:/msys64/ucrt64/include/unknwn.h:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/qualifier.hpp:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/concept_check.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/stringfwd.h:
+C:/msys64/ucrt64/include/unknwn.h:
 
 C:/msys64/ucrt64/include/unknwnbase.h:
 
 _deps/sfml-src/include/SFML/System/Sleep.hpp:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_double1.hpp:
+
 C:/msys64/ucrt64/include/urlmon.h:
-
-C:/msys64/ucrt64/include/winapifamily.h:
-
-C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_string.h:
-
-C:/msys64/ucrt64/include/c++/13.2.0/sstream:
 
 _deps/sfml-src/include/SFML/Graphics/Texture.hpp:
 
-C:/msys64/ucrt64/include/winbase.h:
+C:/msys64/ucrt64/include/c++/13.2.0/sstream:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_string.h:
+
+C:/msys64/ucrt64/include/winapifamily.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/chrono.h:
+
+C:/msys64/ucrt64/include/winbase.h:
 
 C:/msys64/ucrt64/include/wincrypt.h:
 
@@ -1497,51 +1778,53 @@ C:/msys64/ucrt64/include/winnt.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/rtmintrin.h:
 
-C:/msys64/ucrt64/include/winreg.h:
-
 C:/msys64/ucrt64/include/c++/13.2.0/ext/aligned_buffer.h:
 
-C:/msys64/ucrt64/include/pthread_signal.h:
-
-C:/msys64/ucrt64/include/winscard.h:
-
-C:/msys64/ucrt64/include/c++/13.2.0/bits/exception.h:
+C:/msys64/ucrt64/include/winreg.h:
 
 _deps/sfml-src/include/SFML/Graphics/RectangleShape.hpp:
 
-C:/msys64/ucrt64/include/winsmcrd.h:
+C:/msys64/ucrt64/include/pthread_signal.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/exception.h:
+
+C:/msys64/ucrt64/include/winscard.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_vector.h:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/vec1.hpp:
+
+C:/msys64/ucrt64/include/winsmcrd.h:
+
 C:/msys64/ucrt64/include/winsock.h:
-
-C:/msys64/ucrt64/include/winspool.h:
-
-C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algo.h:
-
-_deps/sfml-src/include/SFML/Window/Keyboard.hpp:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_facets.tcc:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc:
+_deps/sfml-src/include/SFML/Window/Keyboard.hpp:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algo.h:
+
+C:/msys64/ucrt64/include/winspool.h:
 
 C:/msys64/ucrt64/include/winuser.h:
-
-C:/msys64/ucrt64/include/c++/13.2.0/iosfwd:
 
 C:/msys64/ucrt64/include/winver.h:
 
 _deps/sfml-src/include/SFML/System/String.inl:
 
-C:/msys64/ucrt64/include/wnnc.h:
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/modified_bessel_func.tcc:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/cpp_type_traits.h:
+
+C:/msys64/ucrt64/include/wnnc.h:
 
 C:/msys64/ucrt64/include/wow64apiset.h:
 
 _deps/sfml-src/include/SFML/Graphics/Transform.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/x86gprintrin.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_bool1.hpp:
 
 C:/msys64/ucrt64/include/wtypes.h:
 
@@ -1555,49 +1838,59 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/adxintrin.h:
 
 _deps/sfml-src/include/SFML/Graphics/Sprite.hpp:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/amxbf16intrin.h:
+C:/msys64/ucrt64/include/c++/13.2.0/string:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_ios.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/string:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/amxbf16intrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/amxcomplexintrin.h:
 
 _deps/sfml-src/include/SFML/System/Vector3.hpp:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_defines.h:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/simd/platform.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/amxfp16intrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/amxint8intrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/amxtileintrin.h:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_uint3_sized.hpp:
 
 C:/msys64/ucrt64/include/c++/13.2.0/iterator:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/amxtileintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/smmintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx2intrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx5124vnniwintrin.h:
-
-C:/msys64/ucrt64/include/c++/13.2.0/bits/ptr_traits.h:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512fintrin.h:
 
 _deps/sfml-src/include/SFML/Graphics/View.hpp:
 
+C:/msys64/ucrt64/include/c++/13.2.0/bits/ptr_traits.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx5124vnniwintrin.h:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512bf16intrin.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double3x4.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512bf16vlintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/enqcmdintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512bitalgintrin.h:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat3x4.hpp:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_bvector.h:
 
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512bitalgintrin.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_float_precision.hpp:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512bwintrin.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_bool2.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512cdintrin.h:
 
@@ -1621,6 +1914,8 @@ C:/Users/Thomas/Documents/test\ sfml/src/main.cpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512vbmi2intrin.h:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/scalar_constants.inl:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512vbmi2vlintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512vbmivlintrin.h:
@@ -1629,23 +1924,35 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512vlbwintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512vnniintrin.h:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/constants.hpp:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512vldqintrin.h:
 
 _deps/sfml-src/include/SFML/Window/Mouse.hpp:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double3x2.hpp:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512vnnivlintrin.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat3x2.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512vp2intersectintrin.h:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/_fixes.hpp:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512vp2intersectvlintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512vpopcntdqintrin.h:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_vec1.hpp:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_facets_nonio.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512vpopcntdqintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avx512vpopcntdqvlintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/prfchiintrin.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_float.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avxneconvertintrin.h:
 
@@ -1653,23 +1960,25 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/avxvnniintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/bmi2intrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/bmiintrin.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/float.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/pstl/pstl_config.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/cldemoteintrin.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/bmiintrin.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/glm.hpp:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_map.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/clflushoptintrin.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/cldemoteintrin.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/ctype_inline.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/codecvt:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/clflushoptintrin.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double4x4_precision.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/clzerointrin.h:
-
-C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr_base.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/emmintrin.h:
 
@@ -1679,9 +1988,9 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/fma4intrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/fxsrintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/gfniintrin.h:
-
 C:/msys64/ucrt64/include/c++/13.2.0/bits/fs_path.h:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/gfniintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/keylockerintrin.h:
 
@@ -1691,23 +2000,33 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/lzcntintrin.h:
 
 _deps/sfml-src/include/SFML/Graphics/Image.hpp:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_float3.hpp:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm3dnow.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_quat.inl:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mm_malloc.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/movdirintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mwaitintrin.h:
+C:/msys64/ucrt64/include/c++/13.2.0/cwchar:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/postypes.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/cwchar:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/mwaitintrin.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/vec4.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/pconfigintrin.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_bool1_precision.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/pkuintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/pmmintrin.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_transform.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/popcntintrin.h:
 
@@ -1719,11 +2038,15 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/wbnoinvdintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/raointintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/rdseedintrin.h:
+C:/msys64/ucrt64/include/c++/13.2.0/cmath:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/memory_resource.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/exponential.hpp:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_algobase.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/memory_resource.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/rdseedintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdarg.h:
 
@@ -1731,9 +2054,13 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stddef.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/stdint.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_double3.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/func_integer.inl:
 
 C:/msys64/ucrt64/include/c++/13.2.0/ios:
+
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/syslimits.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/tmmintrin.h:
 
@@ -1741,17 +2068,17 @@ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/tsxldtrkintrin.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/locale:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_common.hpp:
+
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/uintrintrin.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/scalar_uint_sized.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/vaesintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/wmmintrin.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc:
-
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/xmmintrin.h:
-
-C:/msys64/ucrt64/include/c++/13.2.0/cstddef:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/xopintrin.h:
 
@@ -1759,11 +2086,11 @@ _deps/sfml-src/include/SFML/Window/VideoMode.hpp:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/xsaveintrin.h:
 
-C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/xsaveoptintrin.h:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float2x4.hpp:
 
 C:/msys64/ucrt64/include/c++/13.2.0/fstream:
 
-C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++locale.h:
+C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/xsaveoptintrin.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/xtestintrin.h:
 
@@ -1773,9 +2100,17 @@ _deps/sfml-src/include/SFML/Graphics/BlendMode.hpp:
 
 C:/Users/Thomas/Documents/test\ sfml/src/shader.cpp:
 
+C:/msys64/ucrt64/include/c++/13.2.0/ratio:
+
 _deps/sfml-src/include/SFML/Graphics/CircleShape.hpp:
 
-C:/msys64/ucrt64/include/c++/13.2.0/ratio:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double3x2_precision.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double3x3.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat3x3.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_double4.hpp:
 
 _deps/sfml-src/include/SFML/Graphics/Color.hpp:
 
@@ -1791,17 +2126,21 @@ _deps/sfml-src/include/SFML/Graphics/Rect.inl:
 
 _deps/sfml-src/include/SFML/Graphics/RenderTarget.hpp:
 
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_uint2_sized.hpp:
+
 _deps/sfml-src/include/SFML/Graphics/RenderWindow.hpp:
 
 _deps/sfml-src/include/SFML/Graphics/Shader.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double2x3_precision.hpp:
 
 _deps/sfml-src/include/SFML/Graphics/Shape.hpp:
 
 _deps/sfml-src/include/SFML/Graphics/Transformable.hpp:
 
-_deps/sfml-src/include/SFML/Graphics/VertexArray.hpp:
-
 C:/msys64/ucrt64/include/c++/13.2.0/bits/unique_ptr.h:
+
+_deps/sfml-src/include/SFML/Graphics/VertexArray.hpp:
 
 _deps/sfml-src/include/SFML/Graphics/VertexBuffer.hpp:
 
@@ -1819,61 +2158,297 @@ _deps/sfml-src/include/SFML/System/MemoryInputStream.hpp:
 
 _deps/sfml-src/include/SFML/System/Mutex.hpp:
 
+C:/msys64/ucrt64/include/c++/13.2.0/bits/charconv.h:
+
 _deps/sfml-src/include/SFML/System/ThreadLocal.hpp:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/charconv.h:
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/poly_hermite.tcc:
 
 _deps/sfml-src/include/SFML/System/Utf.hpp:
 
 _deps/sfml-src/include/SFML/System/Vector2.hpp:
 
-_deps/sfml-src/include/SFML/System/Vector2.inl:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double3x3_precision.hpp:
 
-_deps/sfml-src/include/SFML/System/Vector3.inl:
+_deps/sfml-src/include/SFML/System/Vector2.inl:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/fs_ops.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/codecvt.h:
-
-_deps/sfml-src/include/SFML/Window.hpp:
+_deps/sfml-src/include/SFML/System/Vector3.inl:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/sstream.tcc:
 
-_deps/sfml-src/include/SFML/Window/Clipboard.hpp:
+_deps/sfml-src/include/SFML/Window.hpp:
 
 C:/msys64/ucrt64/include/c++/13.2.0/debug/debug.h:
 
-_deps/sfml-src/include/SFML/Window/ContextSettings.hpp:
+_deps/sfml-src/include/SFML/Window/Clipboard.hpp:
 
 C:/msys64/ucrt64/include/c++/13.2.0/ext/atomicity.h:
 
-_deps/sfml-src/include/SFML/Window/Cursor.hpp:
+_deps/sfml-src/include/SFML/Window/ContextSettings.hpp:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/algorithmfwd.h:
 
+_deps/sfml-src/include/SFML/Window/Cursor.hpp:
+
 _deps/sfml-src/include/SFML/Window/Event.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_vec3.inl:
 
 _deps/sfml-src/include/SFML/Window/Joystick.hpp:
 
-C:/msys64/ucrt64/include/c++/13.2.0/ext/numeric_traits.h:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float4x2_precision.hpp:
 
 _deps/sfml-src/include/SFML/Window/Sensor.hpp:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/stream_iterator.h:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float2x4_precision.hpp:
+
+C:/msys64/ucrt64/include/c++/13.2.0/ext/numeric_traits.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/func_packing.inl:
 
 _deps/sfml-src/include/SFML/Window/Touch.hpp:
 
 _deps/sfml-src/include/SFML/Window/Vulkan.hpp:
 
-_deps/sfml-src/include/SFML/Window/Window.hpp:
+C:/Users/Thomas/Documents/test\ sfml/include/glm/mat2x2.hpp:
 
 C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/messages_members.h:
 
+_deps/sfml-src/include/SFML/Window/Window.hpp:
+
 _deps/sfml-src/include/SFML/Window/WindowHandle.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double2x2_precision.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float2x2.hpp:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/allocated_ptr.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float2x2_precision.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_bool3.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_bool4.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double4x2_precision.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/mat4x3.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_bool4_precision.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_double2.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_double2_precision.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_double4_precision.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_int1_sized.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_float2.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_float2_precision.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_float3_precision.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat2x4.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_trigonometric.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_float4.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_float4_precision.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat3x2.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_half.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_int2.hpp:
+
+C:/msys64/ucrt64/include/pthread.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_int4.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_int4_sized.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_uint2.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_uint3.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_float.hpp:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/allocator.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_uint4.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_float1_precision.hpp:
+
+C:/msys64/ucrt64/include/c++/13.2.0/ext/type_traits.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_uint4_sized.hpp:
+
+C:/msys64/ucrt64/include/c++/13.2.0/exception:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/setup.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_half.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/fwd.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/matrix_transform.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_transform.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/type_ptr.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/integer.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/packing.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_int1.hpp:
+
+C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/ctype_base.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/trigonometric.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/vec2.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/matrix.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/common.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/compute_common.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/func_common.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/func_geometric.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/func_matrix.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat2x2.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double2x3.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat2x3.hpp:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/beta_function.tcc:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat2x4.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_trigonometric.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double2x4.hpp:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/nested_exception.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_classes.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat3x3.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat3x4.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat4x2.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat4x3.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float3x4_precision.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat4x4.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_double4x3.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_mat4x3.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_vec1.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_vec2.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_vec2.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_vec3.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_vec4.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/detail/type_vec4.inl:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/uniform_int_dist.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_clip_space.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float2x3.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float3x2_precision.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float3x3.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float4x3.hpp:
+
+C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++io.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_float4x4.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_projection.hpp:
+
+C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/os_defines.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/matrix_projection.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_double.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_geometric.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_geometric.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_relational.hpp:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/riemann_zeta.tcc:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/quaternion_relational.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/scalar_constants.hpp:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_classes.tcc:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/fs_dir.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/scalar_int_sized.hpp:
+
+C:/msys64/ucrt64/include/locale.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_double1_precision.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_float1.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_relational.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/ext/vector_uint1.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/geometric.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/epsilon.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/quaternion.hpp:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/gtc/quaternion.inl:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/mat3x3.hpp:
+
+C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++locale.h:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/mat4x2.hpp:
+
+C:/msys64/ucrt64/include/c++/13.2.0/ctime:
+
+C:/Users/Thomas/Documents/test\ sfml/include/glm/mat4x4.hpp:
 
 C:/msys64/ucrt64/include/GL/gl.h:
 
 C:/msys64/ucrt64/include/_mingw_stat64.h:
+
+C:/msys64/ucrt64/include/assert.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/algorithm:
 
@@ -1883,59 +2458,59 @@ C:/msys64/ucrt64/include/c++/13.2.0/bit:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/alloc_traits.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/allocated_ptr.h:
-
-C:/msys64/ucrt64/include/c++/13.2.0/bits/allocator.h:
-
 C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_ios.tcc:
-
-C:/msys64/ucrt64/include/c++/13.2.0/bits/hash_bytes.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/basic_string.tcc:
 
+C:/msys64/ucrt64/include/c++/13.2.0/compare:
+
 C:/msys64/ucrt64/include/c++/13.2.0/bits/char_traits.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/compare:
+C:/msys64/ucrt64/include/c++/13.2.0/bits/codecvt.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/cxxabi_forced.h:
 
+C:/msys64/ucrt64/include/c++/13.2.0/bits/cxxabi_init_exception.h:
+
 C:/msys64/ucrt64/include/c++/13.2.0/bits/erase_if.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/fs_dir.h:
+C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_defines.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_classes.tcc:
-
-C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/time_members.h:
+C:/msys64/ucrt64/include/c++/13.2.0/bits/exception_ptr.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/fs_fwd.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/fstream.tcc:
 
+C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h:
+
 C:/msys64/ucrt64/include/c++/13.2.0/bits/functional_hash.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/requires_hosted.h:
+C:/msys64/ucrt64/include/c++/13.2.0/bits/hash_bytes.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/ios_base.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h:
+C:/msys64/ucrt64/include/c++/13.2.0/bits/istream.tcc:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_classes.h:
-
-C:/msys64/ucrt64/include/c++/13.2.0/bits/nested_exception.h:
+C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_facets.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/locale_facets_nonio.tcc:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/localefwd.h:
-
 C:/msys64/ucrt64/include/c++/13.2.0/cctype:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/localefwd.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/memoryfwd.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/move.h:
-
 C:/msys64/ucrt64/include/c++/13.2.0/tuple:
 
+C:/msys64/ucrt64/include/c++/13.2.0/bits/move.h:
+
 C:/msys64/ucrt64/include/c++/13.2.0/bits/node_handle.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream.tcc:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/ell_integral.tcc:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/ostream_insert.h:
 
@@ -1945,13 +2520,21 @@ C:/msys64/ucrt64/include/c++/13.2.0/bits/quoted_string.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr.h:
 
+C:/msys64/ucrt64/include/c++/13.2.0/bits/shared_ptr_base.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/specfun.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/std_abs.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_construct.h:
+
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_heap.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_iterator_base_types.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_multimap.h:
-
-C:/msys64/ucrt64/include/c++/13.2.0/exception:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_pair.h:
 
@@ -1959,35 +2542,53 @@ C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_tempbuf.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/stl_tree.h:
 
+C:/msys64/ucrt64/include/c++/13.2.0/bits/stream_iterator.h:
+
 C:/msys64/ucrt64/include/c++/13.2.0/bits/streambuf.tcc:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/uniform_int_dist.h:
+C:/msys64/ucrt64/include/c++/13.2.0/bits/stringfwd.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/bits/vector.tcc:
+C:/msys64/ucrt64/include/corecrt_startup.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/os_defines.h:
+C:/msys64/ucrt64/include/c++/13.2.0/bits/utility.h:
+
+C:/msys64/ucrt64/include/c++/13.2.0/cassert:
 
 C:/msys64/ucrt64/include/wctype.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/cerrno:
 
-C:/msys64/ucrt64/include/c++/13.2.0/clocale:
+C:/msys64/ucrt64/include/c++/13.2.0/cfloat:
+
+C:/msys64/ucrt64/include/c++/13.2.0/climits:
 
 C:/msys64/ucrt64/include/c++/13.2.0/cwctype:
 
+C:/msys64/ucrt64/include/c++/13.2.0/clocale:
+
+C:/msys64/ucrt64/include/c++/13.2.0/codecvt:
+
+C:/msys64/ucrt64/include/c++/13.2.0/cstddef:
+
 C:/msys64/ucrt64/include/c++/13.2.0/cstdio:
 
-C:/msys64/ucrt64/include/c++/13.2.0/ctime:
+C:/msys64/ucrt64/include/c++/13.2.0/cstdlib:
+
+C:/msys64/ucrt64/include/c++/13.2.0/cstring:
+
+C:/msys64/ucrt64/include/c++/13.2.0/debug/assertions.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/ext/concurrence.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/ext/string_conversions.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/ext/type_traits.h:
-
 C:/msys64/ucrt64/include/c++/13.2.0/filesystem:
+
+C:/msys64/ucrt64/include/c++/13.2.0/initializer_list:
+
+C:/msys64/ucrt64/include/c++/13.2.0/iosfwd:
 
 C:/msys64/ucrt64/include/c++/13.2.0/iostream:
 
@@ -1995,9 +2596,9 @@ C:/msys64/ucrt64/include/c++/13.2.0/istream:
 
 C:/msys64/ucrt64/include/c++/13.2.0/limits:
 
-C:/msys64/ucrt64/include/c++/13.2.0/new:
-
 C:/msys64/ucrt64/include/c++/13.2.0/map:
+
+C:/msys64/ucrt64/include/c++/13.2.0/new:
 
 C:/msys64/ucrt64/include/c++/13.2.0/ostream:
 
@@ -2007,7 +2608,21 @@ C:/msys64/ucrt64/include/c++/13.2.0/pstl/glue_algorithm_defs.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/stdexcept:
 
+C:/msys64/ucrt64/include/c++/13.2.0/stdlib.h:
+
 C:/msys64/ucrt64/include/c++/13.2.0/system_error:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/bessel_function.tcc:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/exp_integral.tcc:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/hypergeometric.tcc:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/legendre_function.tcc:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/poly_laguerre.tcc:
+
+C:/msys64/ucrt64/include/c++/13.2.0/tr1/special_function_util.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/type_traits:
 
@@ -2015,25 +2630,23 @@ C:/msys64/ucrt64/include/c++/13.2.0/typeinfo:
 
 C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/atomic_word.h:
 
+C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/basic_file.h:
+
 C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++allocator.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h:
 
-C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++io.h:
-
 C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/cpu_defines.h:
-
-C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/ctype_base.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/gthr-default.h:
 
 C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/gthr.h:
 
-C:/msys64/ucrt64/include/locale.h:
+C:/msys64/ucrt64/include/c++/13.2.0/x86_64-w64-mingw32/bits/time_members.h:
+
+C:/msys64/ucrt64/include/float.h:
 
 C:/msys64/ucrt64/include/process.h:
-
-C:/msys64/ucrt64/include/pthread.h:
 
 C:/msys64/ucrt64/include/pthread_compat.h:
 

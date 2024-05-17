@@ -5,8 +5,6 @@
 #include <filesystem>
 #include <iostream>
 
-#include <glad/gl.h>
-
 Shader::Shader(const char* vertexPath, const char* fragmentPath)
 {
     // Vertex
@@ -96,4 +94,9 @@ void Shader::setFloat(const std::string& name, float value) const
 void Shader::setVec3(const std::string& name, std::array<float, 3> value) const
 {
     glUniform3f(glGetUniformLocation(ID, name.c_str()), value[0], value[1], value[2]);
+}
+
+void Shader::setMat4(const std::string& name, GLfloat* matrix) const
+{
+    glUniformMatrix4fv(glGetUniformLocation(ID, name.c_str()), 1, GL_FALSE, matrix);
 }
