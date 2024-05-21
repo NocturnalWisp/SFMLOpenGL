@@ -194,6 +194,10 @@
 	"dependencies" : 
 	[
 		{
+			"backtrace" : 14,
+			"id" : "copy-files::@6890427a1f51a3e7e1df"
+		},
+		{
 			"backtrace" : 2,
 			"id" : "sfml-system::@8cb1db2982443611e568"
 		},
@@ -204,10 +208,6 @@
 		{
 			"backtrace" : 2,
 			"id" : "sfml-graphics::@98af38147d5fa7e70f61"
-		},
-		{
-			"backtrace" : 14,
-			"id" : "copy-files::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "SFMLOpenGL::@6890427a1f51a3e7e1df",

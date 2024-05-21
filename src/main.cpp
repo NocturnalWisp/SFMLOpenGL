@@ -27,15 +27,25 @@ int main()
     window.setActive(true);
 
     sf::Clock clock;
+    sf::Clock deltaClock;
 
     gladLoadGL(reinterpret_cast<GLADloadfunc>(sf::Context::getFunction));
 
     glEnable(GL_DEPTH_TEST);
 
-    auto viewMatrix = glm::mat4(1.0f);
-    viewMatrix = glm::translate(viewMatrix, glm::vec3(0.0f, 0.0f, -3.0f));
-
     auto projectionMatrix = glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 100.0f);
+
+    auto cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);
+    auto cameraTarget = glm::vec3(0.0f, 0.0f, 0.0f);
+    auto cameraDirection = glm::normalize(cameraPos - cameraTarget);
+    auto cameraSpeed = 0.005f;
+
+    auto up = glm::vec3(0.0f, 1.0f, 0.0f);
+    auto cameraRight = glm::normalize(glm::cross(up, cameraDirection));
+    auto cameraUp = glm::cross(cameraDirection, cameraRight);
+    auto cameraFront = glm::vec3(0.0f, 0.0f, -1.0f);
+
+    auto viewMatrix = glm::mat4(1.0f);
 
     Shader shader = Shader("resources/triangle_vertex.glsl", "resources/triangle_fragment.glsl");
 
@@ -138,6 +148,8 @@ int main()
     float textureMix = 0.3;
 
     bool isRunning = true;
+    float deltaTime = 0;
+
     while (isRunning)
     {
         sf::Event event;
@@ -159,6 +171,20 @@ int main()
                 }
             }
         }
+
+        cameraSpeed = 2.5f * deltaTime;
+        std::cout << 1000.0f/deltaTime << std::endl;
+
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
+            cameraPos += cameraSpeed * cameraFront;
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
+            cameraPos -= cameraSpeed * cameraFront;
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
+            cameraPos -= cameraSpeed * glm::normalize(glm::cross(cameraFront, cameraUp));
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
+            cameraPos += cameraSpeed * glm::normalize(glm::cross(cameraFront, cameraUp));
+
+        viewMatrix = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
 
         glClearColor(0.2, 0.3, 0.3, 1);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -188,6 +214,8 @@ int main()
         glBindVertexArray(0);
 
         window.display();
+
+        deltaTime = deltaClock.restart().asSeconds();
     }
 
     glDeleteVertexArrays(1, &vao);
