@@ -26,6 +26,9 @@ int main()
 
     window.setActive(true);
 
+    window.setMouseCursorVisible(false);
+    window.setMouseCursorGrabbed(true);
+
     sf::Clock clock;
     sf::Clock deltaClock;
 
@@ -39,11 +42,15 @@ int main()
     auto cameraTarget = glm::vec3(0.0f, 0.0f, 0.0f);
     auto cameraDirection = glm::normalize(cameraPos - cameraTarget);
     auto cameraSpeed = 0.005f;
+    auto cameraSensitivity = 0.1f;
 
     auto up = glm::vec3(0.0f, 1.0f, 0.0f);
     auto cameraRight = glm::normalize(glm::cross(up, cameraDirection));
     auto cameraUp = glm::cross(cameraDirection, cameraRight);
     auto cameraFront = glm::vec3(0.0f, 0.0f, -1.0f);
+
+    float cameraYaw = -90.0f;
+    float cameraPitch = 0.0f;
 
     auto viewMatrix = glm::mat4(1.0f);
 
@@ -150,6 +157,8 @@ int main()
     bool isRunning = true;
     float deltaTime = 0;
 
+    sf::Vector2f lastMousePos = (sf::Vector2f)sf::Mouse::getPosition();
+
     while (isRunning)
     {
         sf::Event event;
@@ -161,7 +170,11 @@ int main()
             }
             else if (event.type == sf::Event::KeyPressed)
             {
-                if (event.key.code == sf::Keyboard::Up)
+                if (event.key.code == sf::Keyboard::Escape)
+                {
+                    isRunning = false;
+                }
+                else if (event.key.code == sf::Keyboard::Up)
                 {
                     textureMix += 0.1;
                 }
@@ -170,10 +183,25 @@ int main()
                     textureMix -= 0.1;
                 }
             }
+            else if (event.type == sf::Event::MouseMoved)
+            {
+                sf::Vector2f mouseOffset = lastMousePos - (sf::Vector2f)sf::Mouse::getPosition();
+                mouseOffset *= cameraSensitivity;
+
+                sf::Mouse::setPosition((sf::Vector2i)window.getSize());
+                lastMousePos = (sf::Vector2f)sf::Mouse::getPosition();
+
+                cameraYaw -= mouseOffset.x;
+                cameraPitch += mouseOffset.y;
+
+                if (cameraPitch > 89.0f)
+                    cameraPitch = 89.0f;
+                if (cameraPitch < -89.0f)
+                    cameraPitch = -89.0f;
+            }
         }
 
         cameraSpeed = 2.5f * deltaTime;
-        std::cout << 1000.0f/deltaTime << std::endl;
 
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
             cameraPos += cameraSpeed * cameraFront;
@@ -183,6 +211,12 @@ int main()
             cameraPos -= cameraSpeed * glm::normalize(glm::cross(cameraFront, cameraUp));
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
             cameraPos += cameraSpeed * glm::normalize(glm::cross(cameraFront, cameraUp));
+
+        cameraFront = glm::normalize(glm::vec3(
+            cos(glm::radians(cameraYaw)) * cos(glm::radians(cameraPitch)),
+            sin(glm::radians(cameraPitch)),
+            sin(glm::radians(cameraYaw)) * cos(glm::radians(cameraPitch))
+        ));
 
         viewMatrix = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
 
