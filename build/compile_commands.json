@@ -24,6 +24,12 @@
   "output": "CMakeFiles/SFMLOpenGL.dir/src/texture.cpp.obj"
 },
 {
+  "directory": "C:/Users/Thomas/Documents/test sfml/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/SFMLOpenGL.dir/includes_CXX.rsp -g -o CMakeFiles\\SFMLOpenGL.dir\\src\\camera.cpp.obj -c \"C:\\Users\\Thomas\\Documents\\test sfml\\src\\camera.cpp\"",
+  "file": "C:/Users/Thomas/Documents/test sfml/src/camera.cpp",
+  "output": "CMakeFiles/SFMLOpenGL.dir/src/camera.cpp.obj"
+},
+{
   "directory": "C:/Users/Thomas/Documents/test sfml/build/_deps/sfml-build/src/SFML/System",
   "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DSFML_STATIC @CMakeFiles/sfml-system.dir/includes_CXX.rsp -g  -Wall -Wextra -Wshadow -Wnon-virtual-dtor -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wdouble-promotion -Wformat=2 -Wnull-dereference -Wold-style-cast -Wpedantic -Werror -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -Wduplicated-branches -o CMakeFiles\\sfml-system.dir\\Clock.cpp.obj -c \"C:\\Users\\Thomas\\Documents\\test sfml\\build\\_deps\\sfml-src\\src\\SFML\\System\\Clock.cpp\"",
   "file": "C:/Users/Thomas/Documents/test sfml/build/_deps/sfml-src/src/SFML/System/Clock.cpp",

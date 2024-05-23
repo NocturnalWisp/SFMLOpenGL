@@ -10,8 +10,9 @@
 #include <SFML/OpenGL.hpp>
 #include <SFML/Graphics.hpp>
 
-#include <shader.hpp>
-#include <texture.hpp>
+#include "shader.hpp"
+#include "texture.hpp"
+#include "camera.hpp"
 
 #include "glm/glm.hpp"
 #include "glm/gtc/matrix_transform.hpp"
@@ -36,23 +37,7 @@ int main()
 
     glEnable(GL_DEPTH_TEST);
 
-    auto projectionMatrix = glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 100.0f);
-
-    auto cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);
-    auto cameraTarget = glm::vec3(0.0f, 0.0f, 0.0f);
-    auto cameraDirection = glm::normalize(cameraPos - cameraTarget);
-    auto cameraSpeed = 0.005f;
-    auto cameraSensitivity = 0.1f;
-
-    auto up = glm::vec3(0.0f, 1.0f, 0.0f);
-    auto cameraRight = glm::normalize(glm::cross(up, cameraDirection));
-    auto cameraUp = glm::cross(cameraDirection, cameraRight);
-    auto cameraFront = glm::vec3(0.0f, 0.0f, -1.0f);
-
-    float cameraYaw = -90.0f;
-    float cameraPitch = 0.0f;
-
-    auto viewMatrix = glm::mat4(1.0f);
+    Camera cam = Camera();
 
     Shader shader = Shader("resources/triangle_vertex.glsl", "resources/triangle_fragment.glsl");
 
@@ -186,39 +171,25 @@ int main()
             else if (event.type == sf::Event::MouseMoved)
             {
                 sf::Vector2f mouseOffset = lastMousePos - (sf::Vector2f)sf::Mouse::getPosition();
-                mouseOffset *= cameraSensitivity;
-
                 sf::Mouse::setPosition((sf::Vector2i)window.getSize());
+                cam.rotate(glm::vec2(mouseOffset.x, mouseOffset.y));
+
                 lastMousePos = (sf::Vector2f)sf::Mouse::getPosition();
-
-                cameraYaw -= mouseOffset.x;
-                cameraPitch += mouseOffset.y;
-
-                if (cameraPitch > 89.0f)
-                    cameraPitch = 89.0f;
-                if (cameraPitch < -89.0f)
-                    cameraPitch = -89.0f;
             }
         }
 
-        cameraSpeed = 2.5f * deltaTime;
+        cam.moveSpeed = 2.5f * deltaTime;
 
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::W))
-            cameraPos += cameraSpeed * cameraFront;
+            cam.move(cam.forward);
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::S))
-            cameraPos -= cameraSpeed * cameraFront;
-        if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
-            cameraPos -= cameraSpeed * glm::normalize(glm::cross(cameraFront, cameraUp));
+            cam.move(-cam.forward);
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::D))
-            cameraPos += cameraSpeed * glm::normalize(glm::cross(cameraFront, cameraUp));
+            cam.move(glm::cross(cam.forward, cam.up));
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
+            cam.move(-glm::cross(cam.forward, cam.up));
 
-        cameraFront = glm::normalize(glm::vec3(
-            cos(glm::radians(cameraYaw)) * cos(glm::radians(cameraPitch)),
-            sin(glm::radians(cameraPitch)),
-            sin(glm::radians(cameraYaw)) * cos(glm::radians(cameraPitch))
-        ));
-
-        viewMatrix = glm::lookAt(cameraPos, cameraPos + cameraFront, cameraUp);
+        cam.update();
 
         glClearColor(0.2, 0.3, 0.3, 1);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -228,8 +199,8 @@ int main()
 
         shader.use();
         shader.setFloat("textureMix", textureMix);
-        shader.setMat4("view", glm::value_ptr(viewMatrix));
-        shader.setMat4("projection", glm::value_ptr(projectionMatrix));
+        shader.setMat4("view", glm::value_ptr(cam.viewMatrix));
+        shader.setMat4("projection", glm::value_ptr(cam.projectionMatrix));
 
         glBindVertexArray(vao);
 

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/SFMLOpenGL.dir/src/camera.cpp.obj"
+  "CMakeFiles/SFMLOpenGL.dir/src/camera.cpp.obj.d"
   "CMakeFiles/SFMLOpenGL.dir/src/gl.c.obj"
   "CMakeFiles/SFMLOpenGL.dir/src/gl.c.obj.d"
   "CMakeFiles/SFMLOpenGL.dir/src/main.cpp.obj"

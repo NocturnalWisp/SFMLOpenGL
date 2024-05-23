@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Thomas/Documents/test sfml/src/gl.c" "CMakeFiles/SFMLOpenGL.dir/src/gl.c.obj" "gcc" "CMakeFiles/SFMLOpenGL.dir/src/gl.c.obj.d"
+  "C:/Users/Thomas/Documents/test sfml/src/camera.cpp" "CMakeFiles/SFMLOpenGL.dir/src/camera.cpp.obj" "gcc" "CMakeFiles/SFMLOpenGL.dir/src/camera.cpp.obj.d"
   "C:/Users/Thomas/Documents/test sfml/src/main.cpp" "CMakeFiles/SFMLOpenGL.dir/src/main.cpp.obj" "gcc" "CMakeFiles/SFMLOpenGL.dir/src/main.cpp.obj.d"
   "C:/Users/Thomas/Documents/test sfml/src/shader.cpp" "CMakeFiles/SFMLOpenGL.dir/src/shader.cpp.obj" "gcc" "CMakeFiles/SFMLOpenGL.dir/src/shader.cpp.obj.d"
   "C:/Users/Thomas/Documents/test sfml/src/texture.cpp" "CMakeFiles/SFMLOpenGL.dir/src/texture.cpp.obj" "gcc" "CMakeFiles/SFMLOpenGL.dir/src/texture.cpp.obj.d"
