@@ -673,7 +673,6 @@ CMakeFiles/SFMLOpenGL.dir/src/main.cpp.obj
  C:/Users/Thomas/Documents/test sfml/include/glm/detail/func_integer.inl
  C:/Users/Thomas/Documents/test sfml/include/glm/detail/func_packing.inl
  C:/Users/Thomas/Documents/test sfml/include/glm/detail/func_trigonometric.inl
- C:/Users/Thomas/Documents/test sfml/include/glm/detail/qualifier.hpp
  C:/Users/Thomas/Documents/test sfml/include/glm/detail/setup.hpp
  C:/Users/Thomas/Documents/test sfml/include/glm/detail/type_half.hpp
  C:/Users/Thomas/Documents/test sfml/include/glm/detail/type_half.inl
@@ -702,6 +701,7 @@ CMakeFiles/SFMLOpenGL.dir/src/main.cpp.obj
  C:/Users/Thomas/Documents/test sfml/include/glm/detail/func_geometric.inl
  C:/Users/Thomas/Documents/test sfml/include/glm/detail/func_matrix.inl
  C:/Users/Thomas/Documents/test sfml/include/glm/detail/func_vector_relational.inl
+ C:/Users/Thomas/Documents/test sfml/include/glm/detail/qualifier.hpp
  C:/Users/Thomas/Documents/test sfml/include/glm/detail/setup.hpp
  C:/Users/Thomas/Documents/test sfml/include/glm/detail/type_float.hpp
  C:/Users/Thomas/Documents/test sfml/include/glm/detail/type_mat2x2.hpp
@@ -1050,13 +1050,33 @@ CMakeFiles/SFMLOpenGL.dir/src/shader.cpp.obj
  C:/Users/Thomas/Documents/test sfml/src/shader.cpp
  C:/Users/Thomas/Documents/test sfml/include/KHR/khrplatform.h
  C:/Users/Thomas/Documents/test sfml/include/glad/gl.h
+ C:/Users/Thomas/Documents/test sfml/include/glm/ext/vector_bool3.hpp
+ C:/Users/Thomas/Documents/test sfml/include/glm/ext/vector_bool3_precision.hpp
+ C:/Users/Thomas/Documents/test sfml/include/glm/ext/vector_double3.hpp
+ C:/Users/Thomas/Documents/test sfml/include/glm/ext/vector_double3_precision.hpp
+ C:/Users/Thomas/Documents/test sfml/include/glm/ext/vector_float3.hpp
+ C:/Users/Thomas/Documents/test sfml/include/glm/ext/vector_float3_precision.hpp
+ C:/Users/Thomas/Documents/test sfml/include/glm/ext/vector_int3.hpp
+ C:/Users/Thomas/Documents/test sfml/include/glm/ext/vector_int3_sized.hpp
+ C:/Users/Thomas/Documents/test sfml/include/glm/ext/vector_uint3.hpp
+ C:/Users/Thomas/Documents/test sfml/include/glm/ext/vector_uint3_sized.hpp
+ C:/Users/Thomas/Documents/test sfml/include/glm/vec3.hpp
  C:/Users/Thomas/Documents/test sfml/include/shader.hpp
+ C:/Users/Thomas/Documents/test sfml/include/glm/detail/compute_vector_relational.hpp
+ C:/Users/Thomas/Documents/test sfml/include/glm/detail/qualifier.hpp
+ C:/Users/Thomas/Documents/test sfml/include/glm/detail/setup.hpp
+ C:/Users/Thomas/Documents/test sfml/include/glm/detail/type_vec3.hpp
+ C:/Users/Thomas/Documents/test sfml/include/glm/detail/type_vec3.inl
+ C:/Users/Thomas/Documents/test sfml/include/glm/ext/scalar_int_sized.hpp
+ C:/Users/Thomas/Documents/test sfml/include/glm/ext/scalar_uint_sized.hpp
+ C:/Users/Thomas/Documents/test sfml/include/glm/simd/platform.h
  C:/msys64/ucrt64/include/_mingw.h
  C:/msys64/ucrt64/include/_mingw_mac.h
  C:/msys64/ucrt64/include/_mingw_off_t.h
  C:/msys64/ucrt64/include/_mingw_secapi.h
  C:/msys64/ucrt64/include/_mingw_stat64.h
  C:/msys64/ucrt64/include/_timeval.h
+ C:/msys64/ucrt64/include/assert.h
  C:/msys64/ucrt64/include/c++/13.2.0/array
  C:/msys64/ucrt64/include/c++/13.2.0/backward/binders.h
  C:/msys64/ucrt64/include/c++/13.2.0/bit
@@ -1131,6 +1151,7 @@ CMakeFiles/SFMLOpenGL.dir/src/shader.cpp.obj
  C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator.h
  C:/msys64/ucrt64/include/c++/13.2.0/bits/uses_allocator_args.h
  C:/msys64/ucrt64/include/c++/13.2.0/bits/utility.h
+ C:/msys64/ucrt64/include/c++/13.2.0/cassert
  C:/msys64/ucrt64/include/c++/13.2.0/cctype
  C:/msys64/ucrt64/include/c++/13.2.0/cerrno
  C:/msys64/ucrt64/include/c++/13.2.0/clocale

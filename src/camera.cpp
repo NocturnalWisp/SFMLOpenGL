@@ -6,7 +6,7 @@ Camera::Camera()
     projectionMatrix = glm::perspective(glm::radians(45.0f), 800.0f / 600.0f, 0.1f, 100.0f);
     // projectionMatrix = glm::ortho(-1.3333f, 1.3333f, -1.0f, 1.0f, 0.1f, 100.0f);
 
-    position = glm::vec3(0.0f, 0.0f, 3.0f);
+    position = glm::vec3(1.0f, 2.0f, 5.0f);
     target = glm::vec3(0.0f, 0.0f, 0.0f);
     direction = glm::normalize(position - target);
     moveSpeed = 0.005f;
@@ -14,7 +14,7 @@ Camera::Camera()
 
     up = glm::vec3(0.0f, 1.0f, 0.0f);
     right = glm::normalize(glm::cross(up, direction));
-    up = glm::cross(direction, right);
+
     forward = glm::vec3(0.0f, 0.0f, -1.0f);
 
     yaw = -90.0f;

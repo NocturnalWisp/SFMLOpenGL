@@ -39,74 +39,52 @@ int main()
 
     Camera cam = Camera();
 
-    Shader shader = Shader("resources/triangle_vertex.glsl", "resources/triangle_fragment.glsl");
+    Shader cubeShader = Shader("resources/triangle_vertex.vs", "resources/triangle_fragment.fs");
+    Shader lampShader = Shader("resources/light_vertex.vs", "resources/light_fragment.fs");
 
     float vertices[] = {
-        -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
-        0.5f, -0.5f, -0.5f,  1.0f, 0.0f,
-        0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-        0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-        -0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
-        -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
+        -0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f,
+     0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f, 
+     0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f, 
+     0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f, 
+    -0.5f,  0.5f, -0.5f,  0.0f,  0.0f, -1.0f, 
+    -0.5f, -0.5f, -0.5f,  0.0f,  0.0f, -1.0f, 
 
-        -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-        0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-        0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
-        0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
-        -0.5f,  0.5f,  0.5f,  0.0f, 1.0f,
-        -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+    -0.5f, -0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
+     0.5f, -0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
+     0.5f,  0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
+     0.5f,  0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
+    -0.5f,  0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
+    -0.5f, -0.5f,  0.5f,  0.0f,  0.0f, 1.0f,
 
-        -0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-        -0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-        -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-        -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-        -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-        -0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+    -0.5f,  0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
+    -0.5f,  0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
+    -0.5f, -0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
+    -0.5f, -0.5f, -0.5f, -1.0f,  0.0f,  0.0f,
+    -0.5f, -0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
+    -0.5f,  0.5f,  0.5f, -1.0f,  0.0f,  0.0f,
 
-        0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-        0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-        0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-        0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-        0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-        0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
+     0.5f,  0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
+     0.5f,  0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
+     0.5f, -0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
+     0.5f, -0.5f, -0.5f,  1.0f,  0.0f,  0.0f,
+     0.5f, -0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
+     0.5f,  0.5f,  0.5f,  1.0f,  0.0f,  0.0f,
 
-        -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-        0.5f, -0.5f, -0.5f,  1.0f, 1.0f,
-        0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-        0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-        -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-        -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
+    -0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
+     0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
+     0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
+     0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
+    -0.5f, -0.5f,  0.5f,  0.0f, -1.0f,  0.0f,
+    -0.5f, -0.5f, -0.5f,  0.0f, -1.0f,  0.0f,
 
-        -0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
-        0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-        0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-        0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-        -0.5f,  0.5f,  0.5f,  0.0f, 0.0f,
-        -0.5f,  0.5f, -0.5f,  0.0f, 1.0f
-    //     // Verts,         Colors,         Tex
-    //     0.5,  0.5, 0.0,   1.0, 0.0, 0.0,  1.0, 2.0,
-    //     0.5, -0.5, 0.0,   0.0, 1.0, 0.0,  1.0, 0.0,
-    //    -0.5, -0.5, 0.0,   0.0, 0.0, 1.0,  0.0, 0.0,
-    //    -0.5,  0.5, 0.0,   1.0, 1.0, 0.0,  0.0, 2.0
+    -0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f,
+     0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f,
+     0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
+     0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
+    -0.5f,  0.5f,  0.5f,  0.0f,  1.0f,  0.0f,
+    -0.5f,  0.5f, -0.5f,  0.0f,  1.0f,  0.0f
     };
-
-    glm::vec3 cubePositions[] = {
-        glm::vec3( 0.0f,  0.0f,  0.0f), 
-        glm::vec3( 2.0f,  5.0f, -15.0f), 
-        glm::vec3(-1.5f, -2.2f, -2.5f),  
-        glm::vec3(-3.8f, -2.0f, -12.3f),  
-        glm::vec3( 2.4f, -0.4f, -3.5f),  
-        glm::vec3(-1.7f,  3.0f, -7.5f),  
-        glm::vec3( 1.3f, -2.0f, -2.5f),  
-        glm::vec3( 1.5f,  2.0f, -2.5f), 
-        glm::vec3( 1.5f,  0.2f, -1.5f), 
-        glm::vec3(-1.3f,  1.0f, -1.5f)  
-    };
-
-    // unsigned int indices[] = {
-    //     0, 1, 3,
-    //     1, 2, 3
-    // };
 
     unsigned int vbo, vao, ebo;
 
@@ -122,22 +100,26 @@ int main()
     // glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ebo);
     // glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW);
 
-    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)0);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
     glEnableVertexAttribArray(0);
 
-    glVertexAttribPointer(1, 2, GL_FLOAT, GL_FALSE, 5 * sizeof(float), (void*)(3 * sizeof(float)));
+    glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
     glEnableVertexAttribArray(1);
+
+    unsigned int lightvao;
+    glGenVertexArrays(1, &lightvao);
+    glBindVertexArray(lightvao);
+    glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)0);
+    glEnableVertexAttribArray(0);
 
     Texture texture = Texture("resources/download.jfif");
     Texture texture2 = Texture("resources/face.png");
 
-    shader.use();
-    shader.setInt("texture1", 0);
-    shader.setInt("texture2", 1);
+    cubeShader.use();
+    cubeShader.setVec3("objectColor", glm::vec3(1.0f, 0.5f, 0.31f));
+    cubeShader.setVec3("lightColor", glm::vec3(1.0f, 1.0f, 1.0f));
 
     glBindVertexArray(0);
-
-    float textureMix = 0.3;
 
     bool isRunning = true;
     float deltaTime = 0;
@@ -158,14 +140,6 @@ int main()
                 if (event.key.code == sf::Keyboard::Escape)
                 {
                     isRunning = false;
-                }
-                else if (event.key.code == sf::Keyboard::Up)
-                {
-                    textureMix += 0.1;
-                }
-                if (event.key.code == sf::Keyboard::Down)
-                {
-                    textureMix -= 0.1;
                 }
             }
             else if (event.type == sf::Event::MouseMoved)
@@ -191,30 +165,38 @@ int main()
 
         cam.update();
 
-        glClearColor(0.2, 0.3, 0.3, 1);
+        glm::vec3 lightPos(1.2f, 1.0f, 2.0f);
+
+        glClearColor(0.1, 0.1, 0.1, 1);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         texture.use(GL_TEXTURE0);
         texture2.use(GL_TEXTURE1);
 
-        shader.use();
-        shader.setFloat("textureMix", textureMix);
-        shader.setMat4("view", glm::value_ptr(cam.viewMatrix));
-        shader.setMat4("projection", glm::value_ptr(cam.projectionMatrix));
+        cubeShader.use();
+        cubeShader.setMat4("view", glm::value_ptr(cam.viewMatrix));
+        cubeShader.setMat4("projection", glm::value_ptr(cam.projectionMatrix));
+        cubeShader.setVec3("lightPos", lightPos);
+        cubeShader.setVec3("viewPos", cam.position);
 
         glBindVertexArray(vao);
 
-        for (unsigned int i = 0; i < 10; i++)
-        {
-            auto modelMatrix = glm::mat4(1.0f);
-            modelMatrix = glm::translate(modelMatrix, cubePositions[i]);
-            float angle = 20.0f * i;
-            modelMatrix = glm::rotate(modelMatrix, clock.getElapsedTime().asSeconds() * glm::radians(angle), glm::vec3(1.0f, 0.3f, 0.5f));
+        auto modelMatrix = glm::mat4(1.0f);
+        cubeShader.setMat4("model", glm::value_ptr(modelMatrix));
 
-            shader.setMat4("model", glm::value_ptr(modelMatrix));
+        glDrawArrays(GL_TRIANGLES, 0, 36);
 
-            glDrawArrays(GL_TRIANGLES, 0, 36);
-        }
+        modelMatrix = glm::mat4(1.0f);
+        modelMatrix = glm::translate(modelMatrix, lightPos);
+        modelMatrix = glm::scale(modelMatrix, glm::vec3(0.2f));
+
+        lampShader.use();
+        lampShader.setMat4("view", glm::value_ptr(cam.viewMatrix));
+        lampShader.setMat4("projection", glm::value_ptr(cam.projectionMatrix));
+        lampShader.setMat4("model", glm::value_ptr(modelMatrix));
+
+        glBindVertexArray(lightvao);
+        glDrawArrays(GL_TRIANGLES, 0, 36);
 
         glBindVertexArray(0);
 
