@@ -217,9 +217,9 @@ _deps/sfml-build/src/SFML/Window/clean: _deps/sfml-build/src/SFML/Window/CMakeFi
 
 # All Build rule for target.
 CMakeFiles/SFMLOpenGL.dir/all: CMakeFiles/copy-files.dir/all
+CMakeFiles/SFMLOpenGL.dir/all: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 CMakeFiles/SFMLOpenGL.dir/all: _deps/sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/all
 CMakeFiles/SFMLOpenGL.dir/all: _deps/sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/all
-CMakeFiles/SFMLOpenGL.dir/all: _deps/sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLOpenGL.dir\build.make CMakeFiles/SFMLOpenGL.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SFMLOpenGL.dir\build.make CMakeFiles/SFMLOpenGL.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Thomas\Documents\test sfml\build\CMakeFiles" --progress-num=1,2,3,4,5 "Built target SFMLOpenGL"

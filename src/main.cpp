@@ -29,6 +29,7 @@ int main()
 
     window.setMouseCursorVisible(false);
     window.setMouseCursorGrabbed(true);
+    bool mouseDisabled = true;
 
     sf::Clock clock;
     sf::Clock deltaClock;
@@ -139,16 +140,39 @@ int main()
             {
                 if (event.key.code == sf::Keyboard::Escape)
                 {
-                    isRunning = false;
+                    if (mouseDisabled)
+                    {
+                        window.setMouseCursorGrabbed(false);
+                        window.setMouseCursorVisible(true);
+                        mouseDisabled = false;
+                    }
+                    else
+                    {
+                        isRunning = false;
+                    }
+                }
+            }
+            else if (event.type == sf::Event::MouseButtonPressed)
+            {
+                if (!mouseDisabled)
+                {
+                    window.setMouseCursorGrabbed(true);
+                    window.setMouseCursorVisible(false);
+                    mouseDisabled = true;
+
+                    lastMousePos = (sf::Vector2f)sf::Mouse::getPosition();
                 }
             }
             else if (event.type == sf::Event::MouseMoved)
             {
-                sf::Vector2f mouseOffset = lastMousePos - (sf::Vector2f)sf::Mouse::getPosition();
-                sf::Mouse::setPosition((sf::Vector2i)window.getSize());
-                cam.rotate(glm::vec2(mouseOffset.x, mouseOffset.y));
+                if (mouseDisabled)
+                {
+                    sf::Vector2f mouseOffset = lastMousePos - (sf::Vector2f)sf::Mouse::getPosition();
+                    sf::Mouse::setPosition((sf::Vector2i)window.getSize());
+                    cam.rotate(glm::vec2(mouseOffset.x, mouseOffset.y));
 
-                lastMousePos = (sf::Vector2f)sf::Mouse::getPosition();
+                    lastMousePos = (sf::Vector2f)sf::Mouse::getPosition();
+                }
             }
         }
 
@@ -165,7 +189,12 @@ int main()
 
         cam.update();
 
-        glm::vec3 lightPos(1.2f, 1.0f, 2.0f);
+        auto cubeMatrix = glm::mat4(1.0f);
+
+        glm::mat4 lampMatrix = glm::mat4(1.0f);
+        lampMatrix = glm::translate(cubeMatrix, glm::vec3(sin(clock.getElapsedTime().asSeconds()), 0.0, cos(clock.getElapsedTime().asSeconds())));
+        lampMatrix = glm::scale(lampMatrix, glm::vec3(0.2f));
+        glm::vec3 lightPos = glm::vec3(lampMatrix[3]);
 
         glClearColor(0.1, 0.1, 0.1, 1);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
@@ -181,19 +210,14 @@ int main()
 
         glBindVertexArray(vao);
 
-        auto modelMatrix = glm::mat4(1.0f);
-        cubeShader.setMat4("model", glm::value_ptr(modelMatrix));
+        cubeShader.setMat4("model", glm::value_ptr(cubeMatrix));
 
         glDrawArrays(GL_TRIANGLES, 0, 36);
-
-        modelMatrix = glm::mat4(1.0f);
-        modelMatrix = glm::translate(modelMatrix, lightPos);
-        modelMatrix = glm::scale(modelMatrix, glm::vec3(0.2f));
 
         lampShader.use();
         lampShader.setMat4("view", glm::value_ptr(cam.viewMatrix));
         lampShader.setMat4("projection", glm::value_ptr(cam.projectionMatrix));
-        lampShader.setMat4("model", glm::value_ptr(modelMatrix));
+        lampShader.setMat4("model", glm::value_ptr(lampMatrix));
 
         glBindVertexArray(lightvao);
         glDrawArrays(GL_TRIANGLES, 0, 36);
