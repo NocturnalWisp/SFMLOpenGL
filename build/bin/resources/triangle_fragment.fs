@@ -16,12 +16,25 @@ struct Light {
     vec3 specular;
 };
 
+struct DirLight {
+
+};
+
+struct PointLight {
+
+};
+
+struct SpotLight {
+
+};
+
 in vec3 FragPos;
 in vec3 Normal;
 in vec2 TexCoords;
 
 uniform Material material;
-uniform Light light;
+
+// uniform Light light;
 
 uniform vec3 viewPos;
 
